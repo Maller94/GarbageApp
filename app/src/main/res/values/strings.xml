@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Garbage Sorting</string>
+    <string name="where">Where</string>
+    <string name="add_item">Add item</string>
+    <string name="clear">Clear</string>
+    <string name="write_item_to_be_sorted">Write item to be sorted</string>
+    <string name="what">What</string>
+    <string name="garbage_sorting">Garbage Sorting</string>
+</resources>

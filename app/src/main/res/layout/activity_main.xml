@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#767272"
+>
+
+    <!-- Header title -->
+   <!-- <TextView
+        android:id="@+id/h_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#287C2C"
+        android:text="@string/garbage_sorting"
+        android:textColor="#ffff"
+        android:textSize="30sp"
+        android:padding="10dp"
+    />-->
+
+    <!-- Sub title -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Where to place item"
+        android:padding="7dp"
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+
+    <!-- Input field -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+    <EditText
+        android:id="@+id/inputField"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="#9C9C9C"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:paddingLeft="10sp"
+        android:hint="@string/write_item_to_be_sorted"
+        android:layout_weight="1"
+        />
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="@string/clear"
+            android:textColor="@color/white"
+            app:backgroundTint="#4CAF50"
+            />
+    </LinearLayout>
+    <!-- Where button -->
+    <Button
+        android:id="@+id/where"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="start"
+        android:layout_marginLeft="5sp"
+        android:width="100dp"
+        android:text="@string/where"
+        android:textColor="#ffff"
+        app:backgroundTint="#4CAF50"
+        android:layout_marginStart="5sp" />
+
+    <!-- Add new item -->
+    <Button
+        android:id="@+id/main_add_new_item"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="start"
+        android:layout_marginLeft="5sp"
+        android:width="100dp"
+        android:text="@string/add_item"
+        android:textColor="#ffff"
+        app:backgroundTint="#4CAF50"
+        android:layout_marginStart="5sp" />
+
+</LinearLayout>

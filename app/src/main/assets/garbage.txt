@@ -1,0 +1,8 @@
+newspaper, paper
+magazine, paper
+milk carton, food
+shoe box, cardboard
+can, metal
+book, paper
+teddy bears, daily waste
+cables, metal
